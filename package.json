@@ -1,0 +1,22 @@
+{
+  "name": "rmvcjs",
+  "version": "1.0.0",
+  "description": "reactive MVC js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyaodong/rmvcjs.git"
+  },
+  "keywords": [
+    "reactive"
+  ],
+  "author": "Vanilla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liyaodong/rmvcjs/issues"
+  },
+  "homepage": "https://github.com/liyaodong/rmvcjs#readme"
+}
