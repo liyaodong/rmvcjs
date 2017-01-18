@@ -2,10 +2,7 @@
   "name": "rmvcjs",
   "version": "1.0.0",
   "description": "reactive MVC js",
-  "main": "index.js",
-  "scripts": {
-    "test": "jasmine"
-  },
+  "main": "build/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/liyaodong/rmvcjs.git"
@@ -18,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/liyaodong/rmvcjs/issues"
   },
-  "homepage": "https://github.com/liyaodong/rmvcjs#readme"
+  "homepage": "https://github.com/liyaodong/rmvcjs#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "react-fatigue-dev": "tj/react-fatigue-dev"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
 }
